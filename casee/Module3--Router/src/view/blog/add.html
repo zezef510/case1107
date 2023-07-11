@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/">Trang chủ</a>
+<a href="/blogs">Danh sách sản phẩm</a>
+<h2>Thêm mới sản phẩm</h2>
+<form action="/bogs-user" method="post">
+    <input type="hidden" name="idBlog">
+    <input type="text" name="category">
+    <input type="text" name="imageBlog">
+    <input type="text" name="title">
+    <input type="text" name="status">
+    <input type="text" name="shortDescription">
+    <input type="text" name="detailBlog">
+    <input type="text" name="startTime">
+    <input type="hidden" name="idUser" value="{idUser}">
+    <button>Add</button>
+</form>
+</body>
+</html>
